@@ -458,8 +458,7 @@ button{
 
 
 /*адаптив*/
-
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .container{
         max-width: 992px;
         margin: 0 auto;
@@ -753,6 +752,78 @@ button{
     .footer__content_left p{
         text-align: center;
     }
-    
 }
+@media (max-width: 540px){
+    .footer__content_input input {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+    @media (max-width: 420px){
+        .partners{
+            display: none;
+        }
+        .footer__content_input input{
+            max-width: 509px;
+            margin-right: 0px;
+        }
+
+        .awards__content{
+            display: flex;
+            justify-content: start;
+            flex-wrap: wrap;
+            padding: 0;
+            align-items: flex-start;
+        }
+
+        .awards__comntent_text p {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .awards__comntent_text img {
+            margin-bottom: 40px;
+        }
+        .info{
+            display: none;
+        }
+        .footer__content{
+            justify-content: center;
+        }
+        .container{
+            justify-content: center;
+        }
+        .footer__content_input input {
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        .info__header, .promo__header, .partners__header, .footer__header {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+        .footer__content_right{
+            display: block;
+            text-align: start;
+        }
+        .adress h2{
+            text-align: start;
+
+
+        }
+        
+
+    }
+
+    @media (max-width: 280px){
+        .footer__content_textarea textarea{
+            width: 230px;
+        }
+        .header__main_text h1{
+            font-size: 38px;
+            
+        }
+
+    }
+    
+
 
