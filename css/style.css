@@ -534,7 +534,22 @@ button{
     }
 
 }
-    
+@media (max-width: 868px){
+    .padding__site,
+    .header .padding__site,
+    .info .padding__site,
+    .promo .padding__site,
+    .partners .padding__site,
+    .footer .padding__site
+    {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .header__rotate{
+        display: none;
+    }
+
+}    
     
     
 
@@ -753,11 +768,11 @@ button{
         text-align: center;
     }
 }
-@media (max-width: 540px){
-    .footer__content_input input {
-        margin: auto;
-        margin-bottom: 30px;
-    }
+    @media (max-width: 540px){
+        .footer__content_input input {
+            margin: auto;
+            margin-bottom: 30px;
+        }
 }
     @media (max-width: 420px){
         .partners{
@@ -773,6 +788,7 @@ button{
             justify-content: start;
             flex-wrap: wrap;
             padding: 0;
+    
             align-items: flex-start;
         }
 
