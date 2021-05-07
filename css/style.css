@@ -174,9 +174,13 @@ button{
     
 
 }
-.inner{
+/*.inner{
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    left: 20px;
     margin-bottom: 30px;
-}
+}*/
 .pagination{
     display: flex;
     justify-content: space-between;
@@ -185,6 +189,63 @@ button{
     font-size: 18px;
     font-weight: 700;
 }
+/*slider styles*/
+.slider{
+    position:relative;
+    overflow:hidden;
+    margin: 0 auto;
+    height: 490px !important;
+    
+  }
+  
+  .slider ul{
+    position:relative;
+    width:100%;
+    margin:0;
+    padding:0;
+    height: 200px;
+    display:inline-block;
+    list-style:none;
+    background:#458;
+  }
+  
+  
+  .slider ul li{
+    position:relative;
+    float: left;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    background:#fff;
+    text-align:center;
+    color:#333;
+  }
+  
+  
+  .control{
+    position: absolute;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    color: #fff;
+    text-decoration: none;
+    
+    cursor: pointer;
+  }
+  
+  .prev{
+    left:250px;
+  }
+  
+  .next{
+    right: 250px;
+  }
+  
+  
+
+
+
+
 
 /*Info section */
 .info .container{
@@ -455,6 +516,11 @@ button{
     color: #989898;
     letter-spacing: 1.2;
 }
+.ham:hover .header__small{
+    display: block;
+    z-index: 1;
+
+}
 
 
 /*адаптив*/
@@ -615,7 +681,7 @@ button{
         position: absolute;
         display: none;
     }
-    .header:hover .header__small{
+    .ham:hover .header__small{
         display: block;
 
     }
