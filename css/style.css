@@ -524,6 +524,33 @@ button{
 
 
 /*адаптив*/
+@media (max-width: 1440px) {
+    .info__content_image{
+        display: none;
+    }
+    .header__nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__nav_li{
+        margin-bottom: 50px;
+    }
+    ul.header__nav_li li{
+        margin-right: 20px;
+    }
+    ul.header__nav_li li:nth-of-type(4){
+        margin-right: 0;  
+    }
+    .padding__site{
+        padding-left: 191px;
+        padding-right: 50px;
+    
+    }
+
+}
+
+
 @media (max-width: 1024px) {
     .container{
         max-width: 992px;
