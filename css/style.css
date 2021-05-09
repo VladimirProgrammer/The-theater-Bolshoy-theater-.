@@ -544,8 +544,11 @@ button{
     }
     .padding__site{
         padding-left: 191px;
-        padding-right: 50px;
+        padding-right: 150px;
     
+    }
+    .info p{
+        margin-right: 20px;
     }
 
 }
@@ -757,6 +760,7 @@ button{
     .footer__content_left input{
         margin-right: 15px;
     }
+    
 }
 
 @media (max-width: 576px){
