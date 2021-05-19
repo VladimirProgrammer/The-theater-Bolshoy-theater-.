@@ -126,6 +126,7 @@ ul.header__nav_li {
     color: #D1A954;
 }
 .header__main{
+    justify-content: space-between;
     text-align: start;
     display: flex;
     margin-top: 191px;
@@ -521,7 +522,14 @@ button{
     z-index: 1;
 
 }
-
+@media (min-width: 1920px) {
+    .padding__site{
+        padding-left: 405px;
+    }
+    .header__nav_li{
+        width: 1000px;
+    }
+}
 
 /*адаптив*/
 @media (max-width: 1440px) {

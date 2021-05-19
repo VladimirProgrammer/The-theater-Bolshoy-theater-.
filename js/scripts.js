@@ -60,11 +60,11 @@ $(function() {
   }
   
   
-  $(".next").on("click",function(){
+  $(".prev").on("click",function(){
     moveRight();
   });
   
-  $(".prev").on("click",function(){
+  $(".next").on("click",function(){
     moveLeft();
   });
   
